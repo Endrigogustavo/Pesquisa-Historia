@@ -40,3 +40,48 @@ h1{
     transform: scale(1.02);
     transition-duration: 0.5s;
 }
+
+
+@media only screen and (max-width:450px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1{
+        color: #6d6a63;
+        font-size: 2.0rem;
+        margin-top: 200px;
+    }
+    
+    .div__botoes{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40%;
+    }
+    
+    .btn{
+        text-align: center;
+        justify-items: center;
+        text-decoration: none;
+        color: #f8f6f0 !important;
+        background-color: #6d6a63 !important;
+        box-shadow: 3px 3px 3px #6d6a633a;
+        font-size: 1.1em;
+        margin-bottom: 1rem;
+        width: 20.5rem;
+        height: 2.5rem;
+        border-radius: 1.5rem;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .btn:hover{
+        box-shadow: 4px 4px 4px #6d6a633a;
+        transform: scale(1.02);
+        transition-duration: 0.5s;
+    }
+    
+}
