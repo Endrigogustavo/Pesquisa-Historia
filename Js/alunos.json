@@ -1,0 +1,151 @@
+{
+    "alunos": [
+
+        {
+            "Nome": "ALEX",
+            "Serie": "2 DS",
+            "Topico 1": "BULLYING",
+            "Topico 2": "FORMAÇÃO DE PESSOAS",
+            "Topico 3": "HISTÓRIA DO BRASIL"
+        },
+
+        {
+            "Nome": "DIOGO",
+            "Serie": "2 DS",
+            "Topico 1": "HISTÓRIA DO BRASIL",
+            "Topico 2": "QUEM MANDA NO BRASIL",
+            "Topico 3": "TEA"
+        },
+
+        {
+            "Nome": "ENDRIGO",
+            "Serie": "2 DS",
+            "Topico 1": "INDEPENDÊNCIA DO BRASIL",
+            "Topico 2": "GUERRA DO PARAGUAI",
+            "Topico 3": "PROCLAMAÇÃO DA REPÚBLICA"
+        },
+
+        {
+            "Nome": "GABRIEL",
+            "Serie": "3 DS",
+            "Topico 1": "ÉTICA DAS VIRTUDES",
+            "Topico 2": "ÉTICA DOS CONTRATOS",
+            "Topico 3": ""
+        },
+
+        {
+            "Nome": "GUILHERME",
+            "Serie": "2 DS",
+            "Topico 1": "BULLYING",
+            "Topico 2": "HISTÓRIA DO BRASIL",
+            "Topico 3": "PARADOXOS"
+        },
+        
+        {
+            "Nome": "LAYARA",
+            "Serie": "2 DS",
+            "Topico 1": "HISTÓRIA DO BRASIL",
+            "Topico 2": "LOCAIS HISTÓRICOS DE SP",
+            "Topico 3": "TEA"
+        },
+
+        {
+            "Nome": "JOÃO PEDRO",
+            "Serie": "2 DS",
+            "Topico 1": "DOENÇAS PELO TESTE DO PÉ",
+            "Topico 2": "HISTÓRIA DO BRASIL",
+            "Topico 3": "TEA"
+        },
+
+        {
+            "Nome": "MARIA",
+            "Serie": "3 DS",
+            "Topico 1": "ÉTICA DE PLATÃO",
+            "Topico 2": "ÉTICA X MORAL",
+            "Topico 3": "NAZISMO"
+        },
+
+        {
+            "Nome": "MIGUEL",
+            "Serie": "2 DS",
+            "Topico 1": "CABANAGEM",
+            "Topico 2": "FEDERALISMO",
+            "Topico 3": "PERÍODO REGENCIAL"
+        },
+
+        {
+            "Nome": "NICKOLAS",
+            "Serie": "2 DS",
+            "Topico 1": "FLASH CARDS",
+            "Topico 2": "JUS NATURALISMO",
+            "Topico 3": "JUS POSITIVISMO"
+        },
+
+        {
+            "Nome": "PABLO",
+            "Serie": "2 DS",
+            "Topico 1": "CURIOSIDADES",
+            "Topico 2": "LIÇÕES DE VIDA",
+            "Topico 3": "HISTÓRIA DO BRASIL"
+        },
+
+        {
+            "Nome": "PEDRO",
+            "Serie": "2 DS",
+            "Topico 1": "BULLYING",
+            "Topico 2": "DAVID HUME",
+            "Topico 3": "ERICK ERIKSON"
+        },
+
+        {
+            "Nome": "REBECA",
+            "Serie": "2 DS",
+            "Topico 1": "BULLYING",
+            "Topico 2": "CÓRTEX PRÉ-FRONTAL",
+            "Topico 3": "PALAVRA 'DEMOCRACIA'"
+        },
+
+        {
+            "Nome": "REVELLIN",
+            "Serie": "2 DS",
+            "Topico 1": "DIREITOS NATURAIS",
+            "Topico 2": "JUS NATURALISMO E POSITIVISMO",
+            "Topico 3": "TEA"
+        },
+
+        {
+            "Nome": "RICARDO",
+            "Serie": "2 DS",
+            "Topico 1": "BULLYING",
+            "Topico 2": "HISTÓRIA DO BRASIL",
+            "Topico 3": "TEA"
+        },
+
+        {
+            "Nome": "VICTOR",
+            "Serie": "2 DS",
+            "Topico 1": "BULLYING",
+            "Topico 2": "HISTÓRIA DO BRASIL",
+            "Topico 3": "TEA"
+        },
+
+        {
+            "Nome": "VINICIUS",
+            "Serie": "2 DS",
+            "Topico 1": "HISTÓRIA DO BRASIL",
+            "Topico 2": "LUIZ GAMA",
+            "Topico 3": "TEA"
+        },
+
+        {
+            "Nome": "TIAGO",
+            "Serie": "2 DS",
+            "Topico 1": "COMPLEXO DE INFERIORIDADE",
+            "Topico 2": "DAVID HUME",
+            "Topico 3": "FORMAÇÃO DA REPÚBLICA BRASILEIRA"
+        }
+
+
+    ]
+
+}
