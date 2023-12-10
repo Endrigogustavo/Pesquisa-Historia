@@ -1,0 +1,27 @@
+{
+    "alunos":[
+        {
+            "Nome": "Pedro",
+            "Idade": "16",
+            "PAIS": "Ficticio/Ficticio",
+            "FILHO UNICO": "Não, 1 Irmã",
+            "HOBBY/TIME": "Corintians",
+            "RELIGIÃO": "Cristão",
+            "ESCOLA FUNDAMENTAL": "Objetivo",
+            "BAIRRO": "Itaquera",
+            "FACULDADE": "USP"
+        },
+        {
+            "Nome": "Endrigo",
+            "Idade": "17",
+            "PAIS": "José/Silvana",
+            "FILHO UNICO": "Não, 3 Irmãos",
+            "HOBBY/TIME": "Desenhar",
+            "RELIGIÃO": "Cristão",
+            "ESCOLA FUNDAMENTAL": "Ayres",
+            "BAIRRO": "Itaquera",
+            "FACULDADE": "USP"
+        }
+
+    ]
+}
