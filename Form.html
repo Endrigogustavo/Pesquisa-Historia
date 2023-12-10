@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário de Contato</title>
-    <link rel="stylesheet" href="css.css" />
+    <link rel="stylesheet" href="Assets/Form.css" />
   </head>
   <body>
-    <h1>Formulário de Contato</h1>
+    
 
 
-  <script src="custom.js"></script>
+  <script src="Js/custom.js"></script>
 
 
 
@@ -24,44 +24,58 @@
       enctype="multipart/form-data"
     >
 
-     
+     <div class="container">
       <label for="message">Mensagem</label>
-     <br><input name="name" id="form_turma_usuario" onkeyup="receberTurmaUsuario()" id="message" value="  Nome completo:  
+      <div class="avatar-upload">
+        <div class="max-width">
+          <div class="imageContainer">
+            <img src="Img/icone.png" alt="Selecione uma imagem" id="imgPhoto">
+          </div>
+        </div>
+        <input type="file" id="flImage" name="c_image" required accept="image/*">
+
+    </div>
+
+    
+     <br><input name="name" type="text" id="form_turma_usuario" onkeyup="receberTurmaUsuario()" id="message" value="Nome completo:  
       " required></input>
-      <br><input type="email" name="email" id="email" placeholder="Email" required/>
-     <br><input id="form_turma_usuario2" onkeyup="receberTurmaUsuario()" id="message" value="  data de nascimento:  
+      <br><input type="text" type="text" class="email" name="email" id="email" placeholder="Email" required/>
+     <br><input id="form_turma_usuario2"  type="text"onkeyup="receberTurmaUsuario()" id="message" value="Data de nascimento:  
       " required></input>
     
-     <br><input id="form_turma_usuario3" onkeyup="receberTurmaUsuario()" id="message" value="  nomes dos pais e sua origem:  
+     <br><input id="form_turma_usuario3" type="text" onkeyup="receberTurmaUsuario()" id="message" value="Nomes dos pais e sua origem:  
       " required></input>
     
-     <br><input id="form_turma_usuario4" onkeyup="receberTurmaUsuario()" id="message" value="  filho único ou tem irmão:  
+     <br><input id="form_turma_usuario4" type="text" onkeyup="receberTurmaUsuario()" id="message" value="Filho único ou tem irmão:  
       " required></input>
-     <br><input id="form_turma_usuario5" onkeyup="receberTurmaUsuario()" id="message" value="  time de futebol (se tiver), hobby:  
+     <br><input id="form_turma_usuario5" type="text" onkeyup="receberTurmaUsuario()" id="message" value="Time de futebol (se tiver), hobby:  
       " required></input>
-     <br><input id="form_turma_usuario6" onkeyup="receberTurmaUsuario()" id="message" value="  religião:  
+     <br><input id="form_turma_usuario6" type="text"onkeyup="receberTurmaUsuario()" id="message" value="Religião:  
       " required></input>
-     <br><input id="form_turma_usuario7" onkeyup="receberTurmaUsuario()" id="message" value="  escola onde estudou no fundamental II:  
+     <br><input id="form_turma_usuario7"type="text" onkeyup="receberTurmaUsuario()" id="message" value="Escola onde estudou no fundamental II:  
       " required></input>
-     <br><input id="form_turma_usuario8" onkeyup="receberTurmaUsuario()" id="message" value="  bairro onde mora:  
+     <br><input id="form_turma_usuario8"type="text" onkeyup="receberTurmaUsuario()" id="message" value="Bairro onde mora:  
       " required></input>
-     <br><input id="form_turma_usuario9" onkeyup="receberTurmaUsuario()" id="message" value="  curso que pretende fazer na faculdade e qual faculdade:  
+     <br><input id="form_turma_usuario9" type="text"onkeyup="receberTurmaUsuario()" id="message" value="Curso que pretende fazer na faculdade e qual faculdade:  
       " required></input>
-     <br><input" id="form_turma_usuario10" onkeyup="receberTurmaUsuario()" id="message" value="  um defeito e uma virtude que julga possuir:  
+     <br><input" id="form_turma_usuario10"type="text" onkeyup="receberTurmaUsuario()" id="message" value="Um defeito e uma virtude que julga possuir:  
       " required></input>
-     <br><input" id="form_turma_usuario11" onkeyup="receberTurmaUsuario()" id="message" value="  como acha que as pessoas ao seu redor te definem:  
+     <br><input" id="form_turma_usuario11"type="text" onkeyup="receberTurmaUsuario()" id="message" value="Como acha que as pessoas ao seu redor te definem:  
       " required></input>
-     <br><input" id="form_turma_usuario12" onkeyup="receberTurmaUsuario()" id="message" value="  você em uma palavra:  
+     <br><input" id="form_turma_usuario12"type="text" onkeyup="receberTurmaUsuario()" id="message" value="Você em uma palavra:  
       " required></input>
      <br><input name="message"id="receber_turma_usuario" type="hidden" value="" required></input>
-     <br><input type="file" name="attachment" accept="image/png, image/jpeg">
+     
      <br><input type="hidden" name="_captcha" value="false" />
      <br><input
         type="hidden"
         name="_next"
         value="http://127.0.0.1:5500/obrigado.html"
       />
-      <button type="submit">Enviar</button>
+      <input type="submit"></input>
     </form>
+    <script src="Js/Img-Avatar.js"></script>
+
+  </div>
   </body>
 </html>
